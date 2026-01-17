@@ -1,6 +1,6 @@
-import random
 from selenium import webdriver
 import pytest
+from urls import Urls
 
 @pytest.fixture
 def driver():
@@ -14,48 +14,23 @@ def driver():
 
 @pytest.fixture
 def driver_home(driver):
-    driver.get("https://stellarburgers.education-services.ru/")
+    driver.get(Urls.HOME_URL)
     return driver
 
 @pytest.fixture
 def driver_login(driver):
-    driver.get("https://stellarburgers.education-services.ru/login")
+    driver.get(Urls.LOGIN_URL)
     return driver
-
-
 
 @pytest.fixture
 def driver_register(driver):
-    driver.get("https://stellarburgers.education-services.ru/register")
+    driver.get(Urls.REGISTER_URL)
     return driver
 
 @pytest.fixture
 def driver_forgot_password(driver):
-    driver.get("https://stellarburgers.education-services.ru/forgot-password")
+    driver.get(Urls.FORGOT_PASSWORD_URL)
     return driver
 
-@pytest.fixture
-def name_registration():
-    return 'Павел'
-
-@pytest.fixture
-def random_email():
-    return f'pavelkuznetsov39{random.randint(100, 999)}@gmail.com'
-
-@pytest.fixture
-def random_password():
-    return str(random.randint(100000, 999999999))
-
-@pytest.fixture
-def invalid_random_password():
-    return str(random.randint(0, 99999))  
-
-@pytest.fixture
-def email():
-    return 'pavelkuznetsov39000@gmail.com'
-
-@pytest.fixture
-def password():
-    return 'tngozp33'
 
 
