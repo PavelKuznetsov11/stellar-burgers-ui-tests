@@ -29,3 +29,4 @@ class Locators:
     SELECT_BUNS_SECTION = (By.XPATH, "//span[text()='Булки']/parent::div[contains(@class, 'tab_tab_type_current__2BEPc')]") # Выбранная секция в конструкторе булки
     SELECT_SAUCES_SECTION = (By.XPATH, "//span[text()='Соусы']/parent::div[contains(@class, 'tab_tab_type_current__2BEPc')]") # Выбранная секция в конструкторе соусы
     SELECT_TOPPINGS_SECTION = (By.XPATH, "//span[text()='Начинки']/parent::div[contains(@class, 'tab_tab_type_current__2BEPc')]") # Выбранная секция в конструкторе начинки
+

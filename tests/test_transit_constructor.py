@@ -52,3 +52,4 @@ class TestTransitConstructor:
 
         buns_section = driver_login.find_element(*locs.BUNS_SECTION)
         assert "Булки" in buns_section.text
+

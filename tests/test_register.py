@@ -63,3 +63,4 @@ class TestRegister:
     
         invalid_password_message = driver_register.find_element(*locs.INCORRECT_PASSWORD)
         assert 'Некорректный пароль' in invalid_password_message.text
+

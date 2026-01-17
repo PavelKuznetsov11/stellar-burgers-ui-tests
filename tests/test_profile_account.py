@@ -24,3 +24,4 @@ class TestProfileAccount:
             expected_conditions.visibility_of_element_located(locs.LOGOUT_BUTTON))
 
         assert "/account/profile" in driver_login.current_url
+

@@ -28,3 +28,4 @@ class TestLogout:
             expected_conditions.visibility_of_element_located(locs.LOGIN_TITLE))
 
         assert "/login" in driver_login.current_url
+

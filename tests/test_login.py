@@ -79,3 +79,4 @@ class TestLogin:
     
         order_button = driver_forgot_password.find_element(*locs.ORDER_BUTTON)
         assert "Оформить заказ" in order_button.text
+

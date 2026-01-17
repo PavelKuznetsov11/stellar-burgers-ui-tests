@@ -96,3 +96,4 @@ class TestConstructorSection:
 
         select_buns_section = driver_login.find_element(*locs.SELECT_BUNS_SECTION)
         assert "Булки" in select_buns_section.text
+
