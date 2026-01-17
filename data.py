@@ -8,7 +8,7 @@ class Data:
     
     @staticmethod
     def get_random_email():
-        return f'pavelkuznetsov39{random.randint(10000, 99999)}@gmail.com'
+        return f'pavelkuznetsov39{random.randint(100, 999)}@gmail.com'
 
     @staticmethod
     def get_random_password():
