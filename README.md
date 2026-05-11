@@ -1,4 +1,4 @@
-#Stellar Burgers UI Tests
+# Stellar Burgers UI Tests
 
 UI-автотесты для проверки сервиса Stellar Burgers
 
